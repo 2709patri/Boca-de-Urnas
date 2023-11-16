@@ -31,14 +31,16 @@ function App() {
       <div class='candidato'>
         <h2>Candidato 1</h2>
          <p>{conteoCandidato1}</p>
+         <button onClick={disminuirCandidato1}>-</button>
         <button onClick={aumentarCandidato1}>+</button>
-        <button onClick={disminuirCandidato1}>-</button>
+       
         </div>
         <div class='candidato1'>
         <h2>Candidato 2</h2>
          <p>{conteoCandidato2}</p>
+         <button onClick={disminuirCandidato2}>-</button>
         <button onClick={aumentarCandidato2}>+</button>
-        <button onClick={disminuirCandidato2}>-</button>
+        
        
       </div>
     </>
